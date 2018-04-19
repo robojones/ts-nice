@@ -1,38 +1,34 @@
 {
-  "private": true,
-  "name": "circleci-2-test",
+  "name": "ts-tools",
   "main": "build/index",
   "typings": "build/index",
-  "description": "A test repository to figure out how the circleci 2.0 config works.",
-  "version": "0.0.4",
+  "description": "Some types that make your life easier when using typescript.",
+  "version": "0.0.0",
   "scripts": {
     "build": "tsc",
     "test": "tsc && nyc mocha --require source-map-support/register 'build/test/**.js'",
     "lint": "tslint --project .",
-    "report-coverage": "# codeclimate-test-reporter < coverage/lcov.info"
+    "report-coverage": "codeclimate-test-reporter < coverage/lcov.info"
   },
   "engines": {
     "node": ">=7.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robojones/circleci-2-test.git"
+    "url": "git+https://github.com/robojones/ts-tools.git"
   },
   "keywords": [
-    "gulpplugin",
-    "gulp",
-    "browser",
-    "require",
-    "module",
-    "web",
-    "export"
+    "typescript",
+    "type",
+    "select",
+    "update"
   ],
   "author": "robojones",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robojones/circleci-2-test/issues"
+    "url": "https://github.com/robojones/ts-tools/issues"
   },
-  "homepage": "https://github.com/robojones/circleci-2-test#readme",
+  "homepage": "https://github.com/robojones/ts-tools#readme",
   "dependencies": {
     "@types/node": "^9.6.4",
     "once-promise": "^1.0.1"
