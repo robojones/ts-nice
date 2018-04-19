@@ -1,13 +1,18 @@
-# TS-Tools
+# ts-nice
 
 Some types that make your life easier when using typescript.
+
+There are three interfaces that allow you to do the following things:
+- Select specific properties from a type ([Select](#select)).
+- Make all properties of a type optional ([Optional](#optional)).
+- Set all properties of a type to a specific type ([SetAll](#setall)).
 
 ## Select
 
 Allows you to select specific properties from an interface / type.
 
 ```typescript
-import { Select } from 'ts-tools'
+import { Select } from 'ts-nice'
 
 interface Example {
 	a: number
@@ -41,7 +46,7 @@ let result = Select<Example, 'a' | 'b'>
 Allows you to make all properties of an interface / type optional.
 
 ```typescript
-import { Optional } from 'ts-tools'
+import { Optional } from 'ts-nice'
 
 interface Example { a: number, b: string }
 
@@ -60,7 +65,7 @@ result = { c: 'asdf' } // invalid
 Allows you to set all properties of an interface to a specific type.
 
 ```typescript
-import { Result } from 'ts-tools'
+import { Result } from 'ts-nice'
 
 interface Example { a: number, b: string }
 

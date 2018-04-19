@@ -1,5 +1,5 @@
 {
-  "name": "ts-tools",
+  "name": "ts-nice",
   "main": "build/index",
   "typings": "build/index",
   "description": "Some types that make your life easier when using typescript.",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robojones/ts-tools.git"
+    "url": "git+https://github.com/robojones/ts-nice.git"
   },
   "keywords": [
     "typescript",
@@ -26,9 +26,9 @@
   "author": "robojones",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robojones/ts-tools/issues"
+    "url": "https://github.com/robojones/ts-nice/issues"
   },
-  "homepage": "https://github.com/robojones/ts-tools#readme",
+  "homepage": "https://github.com/robojones/ts-nice#readme",
   "dependencies": {
     "@types/node": "^9.6.4",
     "once-promise": "^1.0.1"
