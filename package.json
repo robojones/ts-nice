@@ -3,7 +3,7 @@
   "main": "build/index",
   "typings": "build/index",
   "description": "Some types that make your life easier when using typescript.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "tsc",
     "test": "echo no tests",
