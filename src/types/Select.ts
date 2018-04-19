@@ -1,5 +1,5 @@
 /**
- * Allows you to select specific keys from another type.
+ * Allows you to select specific keys from an interface / type.
  * @example
  * interface Example { a: number, b: string }
  *
