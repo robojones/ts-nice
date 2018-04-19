@@ -1,5 +1,7 @@
 # ts-nice
 
+[![CircleCI](https://circleci.com/gh/robojones/ts-nice.svg?style=svg)](https://circleci.com/gh/robojones/ts-nice)
+
 Some types that make your life easier when using typescript.
 
 There are three interfaces that allow you to do the following things:
