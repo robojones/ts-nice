@@ -1,9 +1,9 @@
 /**
- * Allows you to make all keys of an interface / type optional.
+ * Allows you to make all properties of an interface / type optional.
  * @example
  * interface Example { a: number, b: string }
  *
- * // Make all keys optional.
+ * // Make all properties optional.
  * let result: Optional<Example>
  *
  * result = {} // valid
