@@ -6,9 +6,9 @@
   "version": "0.0.0",
   "scripts": {
     "build": "tsc",
-    "test": "echo 'no tests'",
+    "test": "echo no tests",
     "lint": "tslint --project .",
-    "report-coverage": "codeclimate-test-reporter < coverage/lcov.info"
+    "report-coverage": "echo no coverage"
   },
   "engines": {
     "node": ">=7.0.0"
