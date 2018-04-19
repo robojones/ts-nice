@@ -65,7 +65,7 @@ result = { c: 'asdf' } // invalid
 Allows you to set all properties of an interface to a specific type.
 
 ```typescript
-import { Result } from 'ts-nice'
+import { SetAll } from 'ts-nice'
 
 interface Example { a: number, b: string }
 
